@@ -4,6 +4,8 @@
 
 Nexus USB HATS brings external USB game storage to a compatible modified Nintendo Switch. It combines the Nexus USB tools, custom firmware files and supporting homebrew apps in one pack, allowing you to install games to an external drive and play them directly from that drive.
 
+Built on **Atmosphère 1.12.1**, this release supports **Nintendo Switch firmware 23.0.1**.
+
 Keep a larger game library on external storage while your microSD card provides the console's custom firmware and homebrew setup.
 
 **[Download the latest release](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/latest)**
@@ -28,7 +30,7 @@ Your drive, connection and console setup must be compatible with the included so
 
 ## Requirements
 
-- A compatible modified Nintendo Switch configured to run custom firmware and homebrew.
+- A compatible modified Nintendo Switch configured to run custom firmware and homebrew, with support for **system firmware 23.0.1** using the included **Atmosphère 1.12.1** setup.
 - A microSD card for the Switch setup and the HATS pack.
 - An external HDD, SSD or USB flash drive, with a suitable USB connection and adequate power.
 - A Windows PC if you want to use Nexus USB Formatter.
@@ -53,6 +55,7 @@ Download the named **Nexus-USB-HATS** ZIP for the pack. GitHub's automatic **Sou
 
 | Component | Included version |
 | --- | --- |
+| Atmosphère | 1.12.1 — supports Nintendo Switch firmware 23.0.1 |
 | Nexus USB Loader | 0.7.29, with the supplied home-menu package |
 | Nexus Manager | 0.1.1 |
 | Goldleaf NEXUS USB | 1.2.1-G2 |
