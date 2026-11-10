@@ -70,6 +70,18 @@ The public download excludes private console backups, encryption key files, pers
 
 See the [release notes](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/latest) for package details and verification information.
 
+## Source code and contributions
+
+The Nexus source is available in three public repositories:
+
+| Repository | What it contains |
+| --- | --- |
+| [Nexus Atmosphere](https://github.com/TR4UNEXUS/Nexus-Atmosphere) | The complete firmware source, including Nexus USB support and fixes. |
+| [Nexus USB Firmware](https://github.com/TR4UNEXUS/Nexus-USB-Firmware) | The USB driver and integration code, tests and a matching Atmosphere build base. |
+| [Nexus Manager](https://github.com/TR4UNEXUS/Nexus-Manager-Source) | The app source for managing games, files, network installs and USB library repair. |
+
+**Any help with building and improving Nexus is welcome.** Code contributions, testing, bug reports, documentation and ideas for making Nexus easier to use are all appreciated. Each source repository includes build notes and contribution guidance. Feel free to open an issue or pull request in the relevant repository.
+
 ## Credits
 
 Maintained by **TR4UNEXUS / TechRepairs4U**.
