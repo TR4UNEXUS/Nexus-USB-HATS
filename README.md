@@ -2,9 +2,9 @@
 
 Install and play games from external USB storage on a compatible modified Nintendo Switch.
 
-**Nexus Atmosphere 1.12.2 N3 · Switch firmware 23.5.0 support · Hekate 6.5.5 / Nyx 1.9.5 · Nexus Manager 0.2.16**
+**Nexus Atmosphere 1.12.2 N4R2 · Switch firmware 23.5.0 support · Hekate 6.5.5 / Nyx 1.9.5 · Nexus Manager 0.2.24**
 
-[Download the latest release](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/latest) · [What's changed](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/tag/v1.12.2-n3) · [Report a problem](https://github.com/TR4UNEXUS/Nexus-USB-HATS/issues)
+[Download the latest release](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/latest) · [What's changed](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/tag/v1.12.2-n4r2) · [Report a problem](https://github.com/TR4UNEXUS/Nexus-USB-HATS/issues)
 
 Keep a larger game library on an external HDD, SSD or USB flash drive. Your microSD card still holds the console setup and the information that connects your USB library to the system.
 
@@ -14,8 +14,8 @@ Both current packs use the **standard Hekate appearance and original Atmosphere 
 
 | Pack | Choose it if… |
 | --- | --- |
-| [**Standard No-HOC**](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-n3/Nexus-1.12.2-N3-Standard-No-HOC.zip) | You want Nexus USB support without HOC's clock controls. |
-| [**Standard HOC**](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-n3/Nexus-1.12.2-N3-Standard-HOC.zip) | You also want the included Nexus-compatible HOC 2.6.0 and its overlay. |
+| [**Standard No-HOC**](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-n4r2/Nexus-1.12.2-N4R2-Standard-No-HOC.zip) | You want Nexus USB support without HOC's clock controls. |
+| [**Standard HOC**](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-n4r2/Nexus-1.12.2-N4R2-Standard-HOC.zip) | You also want the included Nexus-compatible HOC 2.6.0 and its overlay. |
 
 Choose **one** pack. Both include Nexus Manager as an NRO and installable NSP, the USB Content overlay with coloured notifications, sys-patch, Nintendo DNS rules, and ready-made Hekate Launch entries.
 
@@ -27,10 +27,10 @@ The installers download the latest packs from this repository. Select your pack 
 
 | Installer | Download and use |
 | --- | --- |
-| **Switch — HOME menu** | [Nexus HATS Installer 1.0.1 NSP](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-n3/Nexus-HATS-Installer-1.0.1.nsp). Install it with your usual NSP installer. |
-| **Switch — homebrew menu** | [Nexus HATS Installer 1.0.1 ZIP](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-n3/Nexus-HATS-Installer-1.0.1.zip). Extract onto the SD card and keep the support files together. |
-| **Windows** | [Nexus HATS Desktop 1.0.1](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-n3/Nexus-HATS-Desktop.x64.exe). Run the standalone 64-bit EXE; no separate .NET installation is needed. |
-| **Mac** | [Nexus HATS Desktop 1.0.1 DMG](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-n3/Nexus-HATS-Desktop-Universal.dmg). Supports Apple Silicon and Intel Macs on macOS 14 or later. Drag the app to Applications. |
+| **Switch — HOME menu** | [Nexus HATS Installer 1.0.1 NSP](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-n4r2/Nexus-HATS-Installer-1.0.1.nsp). Install it with your usual NSP installer. |
+| **Switch — homebrew menu** | [Nexus HATS Installer 1.0.1 ZIP](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-n4r2/Nexus-HATS-Installer-1.0.1.zip). Extract onto the SD card and keep the support files together. |
+| **Windows** | [Nexus HATS Desktop 1.0.1](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-n4r2/Nexus-HATS-Desktop.x64.exe). Run the standalone 64-bit EXE; no separate .NET installation is needed. |
+| **Mac** | [Nexus HATS Desktop 1.0.1 DMG](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-n4r2/Nexus-HATS-Desktop-Universal.dmg). Supports Apple Silicon and Intel Macs on macOS 14 or later. Drag the app to Applications. |
 
 **Update the installer before upgrading your pack.** Installer 1.0.1 preserves the USB mappings in `atmosphere/usb_content`, HOME badge data in `atmosphere/usb_badges`, and related repair/recovery files. It also prevents a downloaded pack from replacing these with another card's library data. HOC and supported system modules remain updateable.
 
@@ -40,22 +40,23 @@ The Mac app is not notarised. On first launch, macOS may require approval in **S
 
 ## What's new
 
-- **Current firmware base:** Atmosphere 1.12.2 with Switch 23.5.0 support, and official Hekate 6.5.5 / Nyx 1.9.5.
-- **System-module compatibility:** avoids unnecessary USB checks during the startup of other modules, including the path involved in the SaltyNX boot investigation.
-- **Cheat error handling:** several failed or malformed cheat operations can now stop cleanly instead of crashing the cheat service.
-- **USB improvements retained:** sleep/wake recovery, write-performance changes, larger-library database handling, and SD/internal installation fixes while USB is connected.
-- **Manager 0.2.16:** clearer navigation and storage labels, deletion fixes, and **Y — Delete all** in Cleanup with review and confirmation. Saved progress is kept.
-- **Network and PC transfer:** saved SMB/NFS connections, queued network installs and FTP streaming to the chosen SD or USB destination, with live progress information.
+- Fixed the compressed game-data read problem behind the reported Silksong launch failure. The same shared fix applies to other games using that path.
+- Fixed a USB-to-USB installation shutdown fault and expanded USB mapping capacity with paged storage.
+- USB routing links now have an automatic recovery copy inside the current system. Manager can preview restoring missing links. Games, tickets and saves are not copied into this backup.
+- Manager 0.2.24 removes repeated repair prompts, improves ticket-check accuracy and protects installed games from misleading Cleanup results.
+- Installs, copies and moves show one overall progress bar and speed, with a larger game cover and bold title during installation.
+- Improved local split-XCI handling. Existing port tools, File manager, FTP/USB-cable transfers and SMB/NFS installs remain included.
+- Earlier sleep/wake, native SD/internal installation, system-module and cheat-service fixes remain included.
 
-See the [release notes](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/tag/v1.12.2-n3) for the full changes. Builds, automated checks and package verification passed. The latest compatibility, cheat and Manager deletion changes still need wider console testing.
+See the [release notes](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/tag/v1.12.2-n4r2) for details. The no-HOC N4R2 firmware was tested with Silksong reaching gameplay, and Manager 0.2.24 was reported working. The HOC variant was rebuilt and checked but still needs its own console test; wider game and module compatibility is not guaranteed.
 
 ## Included versions
 
 | Component | Current pack |
 | --- | --- |
-| Nexus Atmosphere | **1.12.2 N3**, targeting Switch firmware **23.5.0** |
+| Nexus Atmosphere | **1.12.2 N4R2**, targeting Switch firmware **23.5.0** |
 | Hekate / Nyx | **6.5.5 / 1.9.5**, official appearance |
-| Nexus Manager | **0.2.16 R1**, NRO and native NSP |
+| Nexus Manager | **0.2.24 R1**, NRO and native NSP |
 | Nexus-compatible HOC | **2.6.0**, HOC pack only |
 | Nexus USB Content overlay | **1.1.0**, with notification support |
 | sys-patch | **1.6.3.0** |
@@ -67,7 +68,7 @@ You need a compatible modified Switch, a microSD card and a supported USB drive 
 
 1. Use an installer above, or shut down the Switch and extract **one** pack to the microSD root, replacing matching files. Preserve your Nintendo and emuMMC folders, USB mappings, saves, mods and cheats.
 2. Boot through **Hekate > Launch** and choose your normal CFW entry. Use the included `payload.bin` for RCM injection. The emuMMC entry requires an existing emuMMC setup.
-3. Open Nexus Manager from the homebrew menu. For its HOME-menu version, install **`install/Nexus-Manager-0.2.16.nsp`** from the pack. Copying the pack updates the NRO; it does not automatically reinstall the HOME-menu NSP.
+3. Open Nexus Manager from the homebrew menu. For its HOME-menu version, install **`install/Nexus-Manager-0.2.24.nsp`** from the pack. Copying the pack updates the NRO; it does not automatically reinstall the HOME-menu NSP.
 
 When switching from an older HOC pack to No-HOC, disable the old HOC module's `atmosphere/contents/00FF0000636C6BFF/flags/boot2.flag`. If an old custom background remains, rename or remove `bootloader/res/background.bmp`. Extracting a new ZIP does not remove leftover modules or theme files.
 
@@ -75,9 +76,9 @@ The release packs do not include games, personal console keys, saves, backups or
 
 ## Other downloads
 
-- [Nexus Manager 0.2.16 — NSP and NRO](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-n3/Nexus-Manager-0.2.16-R1.zip) for updating the app separately.
+- [Nexus Manager 0.2.24 — NSP and NRO](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-n4r2/Nexus-Manager-0.2.24-R1.zip) for updating the app separately.
 - [Nexus USB Formatter 1.6.1 for Windows](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v2026.11.04-sl7/Nexus-USB-Formatter-1.6.1-Windows.zip), supplied as a test build. Formatting erases the selected drive.
-- [SHA-256 checksums](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-n3/SHA256SUMS.txt) for the current release downloads.
+- [SHA-256 checksums](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-n4r2/SHA256SUMS.txt) for the current release downloads.
 
 ## Source and contributions
 
@@ -90,7 +91,7 @@ Help with building, testing and improving Nexus is welcome. Bug reports, documen
 | Switch HATS Installer | [Nexus-HATS-Installer](https://github.com/TR4UNEXUS/Nexus-HATS-Installer) |
 | Windows and Mac HATS Installer | [Nexus-HATS-Desktop](https://github.com/TR4UNEXUS/Nexus-HATS-Desktop) |
 
-[Nexus Manager releases](https://github.com/TechRepairs4U/Nexus-Manager/releases) are maintained separately. The [earlier public Manager source snapshot](https://github.com/TR4UNEXUS/Nexus-Manager-Source) is not the source for every current binary release.
+[Nexus Manager releases](https://github.com/TechRepairs4U/Nexus-Manager/releases) are maintained separately. The [Manager source repository](https://github.com/TR4UNEXUS/Nexus-Manager-Source) contains the current 0.2.24 source and build instructions.
 
 For a problem report, include the pack version, Switch firmware, HOC or No-HOC, whether the game is on SD or USB, and the exact error. Share relevant logs after removing personal information.
 
