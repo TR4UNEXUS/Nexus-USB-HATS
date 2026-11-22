@@ -16,7 +16,7 @@ The two **Standard** packs use the official Hekate/Nyx appearance and original A
 | --- | --- |
 | [**Standard No-HOC**](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-1.12.2-LR1-Standard-No-HOC.zip) | You want Nexus USB support without HOC's clock controls. |
 | [**Standard HOC**](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-1.12.2-LR1-Standard-HOC.zip) | You also want the included Horizon OC 2.6.1 and its overlay. |
-| [**Nexus-themed HOC**](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-1.12.2-LR1-R1-Nexus-Themed-HOC.zip) | You want Standard HOC with the custom Nexus Hekate/Nyx appearance, restored Nexus splash and EMU / SYS CFW Launch icons. |
+| [**Nexus-themed HOC**](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-1.12.2-LR1-Nexus-Themed-HOC.zip) | You want Standard HOC with the custom Nexus Hekate/Nyx appearance, restored Nexus splash and EMU / SYS CFW Launch icons. |
 
 This three-pack lineup is the default for future releases.
 
@@ -30,12 +30,12 @@ The installers download the latest packs from this repository. Select your pack 
 
 | Installer | Download and use |
 | --- | --- |
-| **Switch — HOME menu** | [Nexus HATS Installer 1.0.2 NSP](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-HATS-Installer-1.0.2.nsp). Install it with your usual NSP installer. |
-| **Switch — homebrew menu** | [Nexus HATS Installer 1.0.2 ZIP](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-HATS-Installer-1.0.2.zip). Extract onto the SD card and keep the support files together. |
+| **Switch — HOME menu** | [Nexus HATS Installer 1.0.3 NSP](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-HATS-Installer-1.0.3.nsp). Install it with your usual NSP installer. |
+| **Switch — homebrew menu** | [Nexus HATS Installer 1.0.3 ZIP](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-HATS-Installer-1.0.3.zip). Extract onto the SD card and keep the support files together. |
 | **Windows** | [Nexus HATS Desktop 1.0.1](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-HATS-Desktop.x64.exe). Run the standalone 64-bit EXE; no separate .NET installation is needed. |
 | **Mac** | [Nexus HATS Desktop 1.0.1 DMG](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-HATS-Desktop-Universal.dmg). Supports Apple Silicon and Intel Macs on macOS 14 or later. Drag the app to Applications. |
 
-**Update the installer before upgrading your pack.** Switch Installer 1.0.2 and Desktop Installer 1.0.1 preserve the USB mappings in `atmosphere/usb_content`, HOME badge data in `atmosphere/usb_badges`, and related repair/recovery files. It also prevents a downloaded pack from replacing these with another card's library data. HOC and supported system modules remain updateable.
+**Update the installer before upgrading your pack.** Switch Installer 1.0.3 and Desktop Installer 1.0.1 preserve the USB mappings in `atmosphere/usb_content`, HOME badge data in `atmosphere/usb_badges`, and related repair/recovery files. It also prevents a downloaded pack from replacing these with another card's library data. HOC and supported system modules remain updateable.
 
 Windows and Mac use the same [protection file](hats-exclusions.json); the Switch installer includes matching USB-library protections. These protections preserve existing data and do not recreate files that were already deleted.
 
@@ -43,8 +43,8 @@ The Mac app is not notarised. On first launch, macOS may require approval in **S
 
 ## What's new
 
-- **Themed pack R1:** restored the original purple Nexus Atmosphere splash and the EMU / SYS CFW Launch icons. The current LR1 USB fixes are retained; the two Standard packs are unchanged.
-- **Switch Installer 1.0.2:** shorter pack entries and corrected update prompts, with the latest version no longer prompting repeatedly.
+- **Themed pack boot fix:** fixed the black screen after the purple Nexus splash, retaining the original artwork and EMU / SYS CFW Launch icons. All three packs remain **1.12.2 LR1**; the two Standard packs are unchanged. The corrected themed build has passed a physical boot test.
+- **Switch Installer 1.0.3:** applies the themed Launch icons correctly after an update, while keeping your boot settings and USB mappings. Shorter pack names and corrected update prompts are retained.
 
 - **Manager 0.2.28:** a clearer USB repair preview, checks for the base game, updates and DLC, and separately confirmed console mapping backups.
 - **Repair guidance:** signed updates with saved and bundled offline copies. [Read about the catalogue](repair/README.md).
@@ -66,7 +66,7 @@ See the [release notes](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/tag
 | Horizon OC | **2.6.1**, separate from Nexus USB, both HOC packs |
 | Nexus USB Content overlay | **1.3.0**, drive information and safe eject |
 | sys-patch | **1.6.3.0** |
-| HATS installers | **1.0.2** for Switch; **1.0.1** for Windows and Mac |
+| HATS installers | **1.0.3** for Switch; **1.0.1** for Windows and Mac |
 
 ## Getting started
 
