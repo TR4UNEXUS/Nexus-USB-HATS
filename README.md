@@ -4,19 +4,19 @@ Install and play games from external USB storage on a compatible modified Ninten
 
 **Nexus Atmosphere 1.12.2 LR1 · Switch firmware 23.5.0 support · Hekate 6.5.5 / Nyx 1.9.5 · Nexus Manager 0.2.28**
 
-[Download the latest release](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/latest) · [What's changed](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/tag/v1.12.2-lr1) · [Report a problem](https://github.com/TR4UNEXUS/Nexus-USB-HATS/issues)
+[Download the latest release](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/latest) · [What's changed](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/tag/v1.12.2-lr1-r1) · [Report a problem](https://github.com/TR4UNEXUS/Nexus-USB-HATS/issues)
 
 Keep a larger game library on an external HDD, SSD or USB flash drive. Your microSD card still holds the console setup and the information that connects your USB library to the system.
 
 ## Choose a pack
 
-The two **Standard** packs use the official Hekate/Nyx appearance and original Atmosphere splash. **Nexus-themed HOC** adds the custom Nexus Hekate/Nyx menu and artwork. All three include the same current Nexus USB firmware, Manager and USB Content overlay.
+The two **Standard** packs use the official Hekate/Nyx appearance and original Atmosphere splash. **Nexus-themed HOC** adds the custom Nexus Hekate/Nyx menu, the original purple Nexus Atmosphere splash, and distinct EMU / SYS CFW Launch icons. All three include the same current Nexus USB firmware, Manager and USB Content overlay.
 
 | Pack | Choose it if… |
 | --- | --- |
-| [**Standard No-HOC**](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1/Nexus-1.12.2-LR1-Standard-No-HOC.zip) | You want Nexus USB support without HOC's clock controls. |
-| [**Standard HOC**](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1/Nexus-1.12.2-LR1-Standard-HOC.zip) | You also want the included Horizon OC 2.6.1 and its overlay. |
-| [**Nexus-themed HOC**](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1/Nexus-1.12.2-LR1-Nexus-Themed-HOC.zip) | You want Standard HOC with the custom Nexus Hekate 6.5.5 / Nyx 1.9.5 appearance. |
+| [**Standard No-HOC**](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-1.12.2-LR1-Standard-No-HOC.zip) | You want Nexus USB support without HOC's clock controls. |
+| [**Standard HOC**](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-1.12.2-LR1-Standard-HOC.zip) | You also want the included Horizon OC 2.6.1 and its overlay. |
+| [**Nexus-themed HOC**](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-1.12.2-LR1-R1-Nexus-Themed-HOC.zip) | You want Standard HOC with the custom Nexus Hekate/Nyx appearance, restored Nexus splash and EMU / SYS CFW Launch icons. |
 
 This three-pack lineup is the default for future releases.
 
@@ -30,18 +30,21 @@ The installers download the latest packs from this repository. Select your pack 
 
 | Installer | Download and use |
 | --- | --- |
-| **Switch — HOME menu** | [Nexus HATS Installer 1.0.1 NSP](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1/Nexus-HATS-Installer-1.0.1.nsp). Install it with your usual NSP installer. |
-| **Switch — homebrew menu** | [Nexus HATS Installer 1.0.1 ZIP](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1/Nexus-HATS-Installer-1.0.1.zip). Extract onto the SD card and keep the support files together. |
-| **Windows** | [Nexus HATS Desktop 1.0.1](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1/Nexus-HATS-Desktop.x64.exe). Run the standalone 64-bit EXE; no separate .NET installation is needed. |
-| **Mac** | [Nexus HATS Desktop 1.0.1 DMG](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1/Nexus-HATS-Desktop-Universal.dmg). Supports Apple Silicon and Intel Macs on macOS 14 or later. Drag the app to Applications. |
+| **Switch — HOME menu** | [Nexus HATS Installer 1.0.2 NSP](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-HATS-Installer-1.0.2.nsp). Install it with your usual NSP installer. |
+| **Switch — homebrew menu** | [Nexus HATS Installer 1.0.2 ZIP](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-HATS-Installer-1.0.2.zip). Extract onto the SD card and keep the support files together. |
+| **Windows** | [Nexus HATS Desktop 1.0.1](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-HATS-Desktop.x64.exe). Run the standalone 64-bit EXE; no separate .NET installation is needed. |
+| **Mac** | [Nexus HATS Desktop 1.0.1 DMG](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-HATS-Desktop-Universal.dmg). Supports Apple Silicon and Intel Macs on macOS 14 or later. Drag the app to Applications. |
 
-**Update the installer before upgrading your pack.** Installer 1.0.1 preserves the USB mappings in `atmosphere/usb_content`, HOME badge data in `atmosphere/usb_badges`, and related repair/recovery files. It also prevents a downloaded pack from replacing these with another card's library data. HOC and supported system modules remain updateable.
+**Update the installer before upgrading your pack.** Switch Installer 1.0.2 and Desktop Installer 1.0.1 preserve the USB mappings in `atmosphere/usb_content`, HOME badge data in `atmosphere/usb_badges`, and related repair/recovery files. It also prevents a downloaded pack from replacing these with another card's library data. HOC and supported system modules remain updateable.
 
 Windows and Mac use the same [protection file](hats-exclusions.json); the Switch installer includes matching USB-library protections. These protections preserve existing data and do not recreate files that were already deleted.
 
 The Mac app is not notarised. On first launch, macOS may require approval in **System Settings > Privacy & Security**.
 
 ## What's new
+
+- **Themed pack R1:** restored the original purple Nexus Atmosphere splash and the EMU / SYS CFW Launch icons. The current LR1 USB fixes are retained; the two Standard packs are unchanged.
+- **Switch Installer 1.0.2:** shorter pack entries and corrected update prompts, with the latest version no longer prompting repeatedly.
 
 - **Manager 0.2.28:** a clearer USB repair preview, checks for the base game, updates and DLC, and separately confirmed console mapping backups.
 - **Repair guidance:** signed updates with saved and bundled offline copies. [Read about the catalogue](repair/README.md).
@@ -51,7 +54,7 @@ The Mac app is not notarised. On first launch, macOS may require approval in **S
 - **Separate HOC:** the HOC pack includes unmodified Horizon OC 2.6.1 alongside the Nexus USB Loader. The no-HOC pack has the same USB support without HOC.
 - Earlier compressed game-data, sleep/wake, native SD/internal install and cheat-service fixes remain included.
 
-See the [release notes](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/tag/v1.12.2-lr1) for the full changes and update instructions. Build and automated checks have passed. Please report bugs with logs or a Manager diagnostic report to help improve game and drive compatibility.
+See the [release notes](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/tag/v1.12.2-lr1-r1) for the full changes and update instructions. Build and automated checks have passed. Please report bugs with logs or a Manager diagnostic report to help improve game and drive compatibility.
 
 ## Included versions
 
@@ -63,7 +66,7 @@ See the [release notes](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/tag
 | Horizon OC | **2.6.1**, separate from Nexus USB, both HOC packs |
 | Nexus USB Content overlay | **1.3.0**, drive information and safe eject |
 | sys-patch | **1.6.3.0** |
-| HATS installers | **1.0.1** for Switch, Windows and Mac |
+| HATS installers | **1.0.2** for Switch; **1.0.1** for Windows and Mac |
 
 ## Getting started
 
@@ -79,9 +82,9 @@ The release packs do not include games, personal console keys, saves, backups or
 
 ## Other downloads
 
-- [Nexus Manager 0.2.28 — NSP and NRO](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1/Nexus-Manager-0.2.28.zip) for updating the app separately.
-- [Nexus USB Formatter 1.6.1 for Windows](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1/Nexus-USB-Formatter-1.6.1-Windows.zip). Formatting erases the selected drive.
-- [SHA-256 checksums](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1/SHA256SUMS-All-Packs.txt) for the current release downloads.
+- [Nexus Manager 0.2.28 — NSP and NRO](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-Manager-0.2.28.zip) for updating the app separately.
+- [Nexus USB Formatter 1.6.1 for Windows](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/Nexus-USB-Formatter-1.6.1-Windows.zip). Formatting erases the selected drive.
+- [SHA-256 checksums](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/download/v1.12.2-lr1-r1/SHA256SUMS-All-Packs.txt) for the current release downloads.
 
 ## Source and contributions
 
