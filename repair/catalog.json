@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "revision": 1,
+  "manager_min": 2028,
+  "manager_max": 999999999,
+  "rules": [
+    {
+      "id": "missing-usb-links",
+      "application": "0000000000000000",
+      "condition": "missing-links",
+      "type": 0,
+      "version_min": 0,
+      "version_max": 4294967295,
+      "manager_min": 2028,
+      "content_id": "00000000000000000000000000000000",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "title": "Missing USB library links",
+      "advice": "Verify the local base game, updates and DLC, then rebuild only their missing routing entries. Keep existing unrelated entries and confirm the console backup afterwards."
+    },
+    {
+      "id": "converted-metadata",
+      "application": "0000000000000000",
+      "condition": "converted-metadata",
+      "type": 0,
+      "version_min": 0,
+      "version_max": 4294967295,
+      "manager_min": 2028,
+      "content_id": "00000000000000000000000000000000",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "title": "Converted game metadata",
+      "advice": "Use the built-in metadata integrity check. The installed record, metadata filesystem and complete referenced content hashes must agree. A known catalogue entry does not bypass these checks."
+    },
+    {
+      "id": "incomplete-files",
+      "application": "0000000000000000",
+      "condition": "incomplete-files",
+      "type": 0,
+      "version_min": 0,
+      "version_max": 4294967295,
+      "manager_min": 2028,
+      "content_id": "00000000000000000000000000000000",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "title": "Files missing or incomplete",
+      "advice": "Reinstall the affected content from your original backup. Repair cannot download or recreate missing game data. Keep saved progress and avoid deleting individual NCAs."
+    },
+    {
+      "id": "system-registration",
+      "application": "0000000000000000",
+      "condition": "missing-registration",
+      "type": 0,
+      "version_min": 0,
+      "version_max": 4294967295,
+      "manager_min": 2028,
+      "content_id": "00000000000000000000000000000000",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "title": "Games from another system",
+      "advice": "Scan the USB drive and review the import preview. Register complete game families using the existing drive files and the current system permissions."
+    },
+    {
+      "id": "missing-ticket",
+      "application": "0000000000000000",
+      "condition": "missing-ticket",
+      "type": 0,
+      "version_min": 0,
+      "version_max": 4294967295,
+      "manager_min": 2028,
+      "content_id": "00000000000000000000000000000000",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "title": "Game permission unavailable",
+      "advice": "Check permissions in the current system. If a required ticket really is missing, reinstall from your original backup. This catalogue contains no tickets or keys."
+    },
+    {
+      "id": "missing-map-set",
+      "application": "0000000000000000",
+      "condition": "missing-maps",
+      "type": 0,
+      "version_min": 0,
+      "version_max": 4294967295,
+      "manager_min": 2028,
+      "content_id": "00000000000000000000000000000000",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "title": "USB map files missing",
+      "advice": "Check the dedicated Nexus console save and restore its links only after validating them against this system and connected drive."
+    },
+    {
+      "id": "saeko-converted-meta-v0",
+      "application": "0100fa2024c10000",
+      "condition": "converted-metadata",
+      "type": 128,
+      "version_min": 0,
+      "version_max": 0,
+      "manager_min": 2028,
+      "content_id": "f4ca939bf230d5bab3ea4767017a359d",
+      "sha256": "809ecd66783e9475843e961cfa139f8c9b3ee74602f17599a207f8d3dd7cbacd",
+      "title": "SAEKO: verified metadata conversion",
+      "advice": "This exact metadata variant was observed with a rewritten distribution header. Use full local metadata and referenced-file validation before repairing links. Do not rename, patch or replace NCAs using this entry."
+    },
+    {
+      "id": "ys-ix-converted-meta-v0",
+      "application": "0100e390124d8000",
+      "condition": "converted-metadata",
+      "type": 128,
+      "version_min": 0,
+      "version_max": 0,
+      "manager_min": 2028,
+      "content_id": "56885a50a1f0d7c7c8ce44224fcff6d0",
+      "sha256": "940d64c0da41261b474643138cdc82b227db87f325f0c210ccda600929708fad",
+      "title": "Ys IX: verified metadata conversion",
+      "advice": "This exact metadata variant was observed with a rewritten distribution header. Use full local metadata and referenced-file validation before repairing links. Do not rename, patch or replace NCAs using this entry."
+    }
+  ]
+}
