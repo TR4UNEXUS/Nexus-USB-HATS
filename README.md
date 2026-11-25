@@ -100,6 +100,8 @@ For a problem report, include the pack version, Switch firmware, HOC or No-HOC, 
 
 If Nexus has been useful to you, consider [buying me a coffee](https://www.buymeacoffee.com/TechRepairs4u). Your support gives me more time to build new features and test fixes. Thanks for supporting my work!
 
+<a href="https://www.buymeacoffee.com/TechRepairs4u"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" width="217" height="60"></a>
+
 ## Credits
 
 Maintained by **TR4UNEXUS / TechRepairs4U**. Thanks to the [Atmosphere team](https://github.com/Atmosphere-NX/Atmosphere), [CTCaer and Hekate contributors](https://github.com/CTCaer/hekate), and the authors of the included HOC, overlay, sys-patch and homebrew components.
