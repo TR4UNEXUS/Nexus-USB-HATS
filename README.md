@@ -45,7 +45,7 @@ The Mac app is not notarised. On first launch, macOS may require approval in **S
 
 - All three packs carry the same **NX1** build number. Switch Manager recognises the edition you installed.
 - Open **Switch Manager 0.2.40** with your PC-prepared USB drive connected. It adds new games to HOME and updates the USB map when compression replaces a game's files. **Installed games → Import from PC** runs the same sync manually.
-- Every edition includes the **Nexus USB Content 1.3.0** colour overlay with drive information, space usage and safe eject. The overlay menu uses Ultrahand 2.5.4 and nx-ovlloader 2.0.3.
+- Every edition includes the **Nexus USB Content 1.3.3**. After closing a USB game, you can safely eject the drive from the overlay. A teal plus shows when a drive connects, a purple check confirms safe eject and an amber minus marks an unexpected disconnect. The overlay menu uses Ultrahand 2.5.4 and nx-ovlloader 2.0.3.
 
 Please report bugs with the name of your pack and a Manager diagnostic report. [NX1 release notes and downloads](https://github.com/TR4UNEXUS/Nexus-USB-HATS/releases/tag/vNX1)
 
@@ -59,7 +59,7 @@ Please report bugs with the name of your pack and a Manager diagnostic report. [
 | Hekate / Nyx | **6.5.5 / 1.9.5**, official or custom Nexus appearance |
 | Nexus Manager | **0.2.40**, NRO and native NSP |
 | Horizon OC | **2.6.1**, separate from Nexus USB, both HOC packs |
-| Nexus USB Content overlay | **1.3.0**, drive information and safe eject |
+| Nexus USB Content overlay | **1.3.3**, drive information, coloured notifications and safe eject |
 | sys-patch | **1.6.3.0** |
 | HATS installers | **1.0.3** for Switch; **1.0.1** for Windows and Mac |
 
